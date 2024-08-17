@@ -7,7 +7,7 @@ function Form() {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
 
-  function onsubmit(e) {
+  function onsubmit(e:React.MouseEvent<HTMLButtonElement>) {
     e.preventDefault();
     console.log(
       JSON.stringify({
