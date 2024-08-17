@@ -18,17 +18,23 @@ function CTA() {
           <Button link="" type="secondary">
             Download CV
           </Button>
-          <button className="bg-black rounded-full lg:w-[48px] w-[35px] h-[35px] lg:h-[48px] flex items-center justify-center ">
-            <FaGithub className="text-white " size={20} />
-            <a href="" target="blank"></a>
+          <button className="bg-black hover:bg-[#2D2D2D]  rounded-full lg:w-[48px] w-[35px] h-[35px] lg:h-[48px] flex items-center justify-center ">
+            <a href="https://github.com/yomidep" target="blank">
+              <FaGithub className="text-white " size={20} />
+            </a>
           </button>
-          <button className="bg-black rounded-full lg:w-[48px] w-[35px] h-[35px] lg:h-[48px] flex items-center justify-center">
-            <FaXTwitter className="text-white " size={20} />
-            <a href="" target="blank"></a>
+          <button className="bg-black hover:bg-[#2D2D2D]  rounded-full lg:w-[48px] w-[35px] h-[35px] lg:h-[48px] flex items-center justify-center">
+            <a href="https://x.com/01_arkade" target="blank">
+              <FaXTwitter className="text-white " size={20} />
+            </a>
           </button>
-          <button className="bg-black rounded-full lg:w-[48px] w-[35px] h-[35px] lg:h-[48px] flex items-center justify-center">
-            <FaLinkedinIn className="text-white" size={20} />
-            <a href="" target="blank"></a>
+          <button className="bg-black hover:bg-[#2D2D2D]  rounded-full lg:w-[48px] w-[35px] h-[35px] lg:h-[48px] flex items-center justify-center">
+            <a
+              href="https://www.linkedin.com/in/noah-biliamin-579743211?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="blank"
+            >
+              <FaLinkedinIn className="text-white" size={20} />
+            </a>
           </button>
         </div>
       </div>
