@@ -1,0 +1,30 @@
+[
+  {
+    "projectName": "Infinity",
+    "projectLogo": "/img/infinity.png",
+    "projectImg": "/img/project-one.png",
+    "projectDesc": "Infinity bot allows users trade perpetual markets at their finger tips using telegram bots",
+    "projectLink": ""
+  },
+  {
+    "projectName": "Horizon",
+    "projectLogo": "/img/horizon.jpg",
+    "projectImg": "/img/project-two.png",
+    "projectDesc": "Horizon is a portfolio tracker built on arbitrum blockchain,gives you full access to your portfolio and assets on chain",
+    "projectLink": ""
+  },
+  {
+    "projectName": "Forge",
+    "projectLogo": "/img/forge.png",
+    "projectImg": "/img/project-three.png",
+    "projectDesc": "F0rge is a token deployer that allows users to create ERC-20 & ERC-721 tokens on any blockchain",
+    "projectLink": ""
+  },
+  {
+    "projectName": "ZakatChain",
+    "projectLogo": "/img/zakatchain.png",
+    "projectImg": "/img/project-four.png",
+    "projectDesc": "Zakatchain is a dapp that allows Muslims to pay their Zakat fee onchain",
+    "projectLink": ""
+  }
+]

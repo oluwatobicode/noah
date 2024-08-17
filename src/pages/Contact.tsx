@@ -1,7 +1,17 @@
+import Navbar from "../ui/Navbar";
+import Form from "../components/Contact/Form";
+import CTA from "../ui/CTA";
+import Boye from "../ui/Boye";
+import Socials from "../components/Contact/Socials";
+
 function Contact() {
   return (
-    <div>
-      <h1>Contact</h1>
+    <div className="">
+      <Navbar />
+      <Form />
+      <Socials />
+      <CTA />
+      <Boye />
     </div>
   );
 }
