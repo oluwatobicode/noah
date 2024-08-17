@@ -1,13 +1,25 @@
 import { useState } from "react";
 import Button from "../../ui/Button";
 
-function Form() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
+interface FormProps {
+  initialName: string;
+  initialEmail: string;
+  initialSubject: string;
+  initialMessage: string;
+}
 
-  function onsubmit(e:React.FormEvent<HTMLFormElement>) {
+function Form({
+  initialName,
+  initialEmail,
+  initialSubject,
+  initialMessage,
+}: FormProps) {
+  const [name, setName] = useState(initialName);
+  const [email, setEmail] = useState(initialEmail);
+  const [subject, setSubject] = useState(initialSubject);
+  const [message, setMessage] = useState(initialMessage);
+
+  function onsubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     console.log(
       JSON.stringify({
