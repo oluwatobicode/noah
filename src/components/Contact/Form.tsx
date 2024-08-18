@@ -9,10 +9,10 @@ interface FormProps {
 }
 
 function Form({
-  initialName,
-  initialEmail,
-  initialSubject,
-  initialMessage,
+  initialName = "",
+  initialEmail = "",
+  initialSubject = "",
+  initialMessage = "",
 }: FormProps) {
   const [name, setName] = useState(initialName);
   const [email, setEmail] = useState(initialEmail);

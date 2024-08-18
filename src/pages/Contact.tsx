@@ -8,7 +8,12 @@ function Contact() {
   return (
     <div className="">
       <Navbar />
-      <Form />
+      <Form
+        initialName=""
+        initialEmail=""
+        initialSubject=""
+        initialMessage=""
+      />
       <Socials />
       <CTA />
       <Boye />
