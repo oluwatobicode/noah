@@ -38,18 +38,27 @@ function Navbar() {
 
         <div className="flex gap-3 items-center justify-between">
           <div className="flex items-center justify-center gap-2">
-            <span className="w-[10px] h-[10px] bg-[#43DA92] rounded-full"></span>
+            <span className="animate-ping w-[10px] h-[10px] bg-[#43DA92] rounded-full"></span>
             <p className="text-[#43DA92] font-bold text-[16.8px]">Available</p>
           </div>
 
           <button className="bg-black hover:bg-[#2D2D2D]  rounded-full w-[48px] h-[48px] flex items-center justify-center ">
-            <FaGithub className="text-white" size={20} />
+            <a href="https://github.com/yomidep" target="blank">
+              <FaGithub className="text-white" size={20} />
+            </a>
           </button>
           <button className="bg-black hover:bg-[#2D2D2D]  rounded-full w-[48px] h-[48px] flex items-center justify-center">
-            <FaXTwitter className="text-white " size={20} />
+            <a href="https://x.com/01_arkade" target="blank">
+              <FaXTwitter className="text-white " size={20} />
+            </a>
           </button>
           <button className="bg-black hover:bg-[#2D2D2D]  rounded-full w-[48px] h-[48px] flex items-center justify-center">
-            <FaLinkedinIn className="text-white" size={20} />
+            <a
+              href="https://www.linkedin.com/in/noah-biliamin-579743211?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="blank"
+            >
+              <FaLinkedinIn className="text-white" size={20} />
+            </a>
           </button>
         </div>
       </div>
@@ -119,13 +128,22 @@ function Navbar() {
               </div>
               <div className="flex flex-row mb-10 gap-5">
                 <button className="bg-black hover:bg-[#2D2D2D]   rounded-full w-[48px] h-[48px] flex items-center justify-center ">
-                  <FaGithub className="text-white" size={20} />
+                  <a href="https://github.com/yomidep" target="blank">
+                    <FaGithub className="text-white" size={20} />
+                  </a>
                 </button>
                 <button className="bg-black  hover:bg-[#2D2D2D]  rounded-full w-[48px] h-[48px] flex items-center justify-center">
-                  <FaXTwitter className="text-white " size={20} />
+                  <a href="https://x.com/01_arkade" target="blank">
+                    <FaXTwitter className="text-white " size={20} />
+                  </a>
                 </button>
                 <button className="bg-black hover:bg-[#2D2D2D]  rounded-full w-[48px] h-[48px] flex items-center justify-center">
-                  <FaLinkedinIn className="text-white" size={20} />
+                  <a
+                    href="https://www.linkedin.com/in/noah-biliamin-579743211?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="blank"
+                  >
+                    <FaLinkedinIn className="text-white" size={20} />
+                  </a>
                 </button>
               </div>
             </nav>

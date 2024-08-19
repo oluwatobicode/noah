@@ -18,10 +18,10 @@ export default function Button({
   const style: { [Key: string]: string } = {
     primary:
       base +
-      "  lg:w-[150px] lg:h-[45px] w-[90px] h-[40px] text-[9.95px] lg:text-[16.5px] leading-[7.25px]",
+      "  lg:w-[150px] lg:h-[45px] w-[90px] h-[40px] text-[10.95px] lg:text-[16.5px] leading-[7.25px]",
     secondary:
       base +
-      " lg:px-5 lg:py-5 px-3 py-2 lg:text-[13.5px] text-[4.65px] leading-[5.67px]",
+      " lg:px-5 lg:py-5 px-3 py-2 lg:text-[13.5px] text-[8.65px] leading-[5.67px]",
   };
   return (
     <button className={style[type]} onClick={onClick}>

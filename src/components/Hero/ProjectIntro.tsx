@@ -33,26 +33,26 @@ function ProjectIntro() {
         </div>
       </div>
 
-      <div className="mt-5 flex">
+      <div className="mt-5 flex w-fit">
         <img
           src="/img/project-one.png"
           alt="Project-one"
-          className="lg:w-[315px] lg:h-[200px] w-[99px] h-[70px]"
+          className="lg:w-[315px] lg:h-[200px] md:w-[205px] md:h-[135px]  w-[99px] h-[70px]"
         />
         <img
           src="/img/project-two.png"
           alt="Project-two"
-          className="lg:w-[315px] lg:h-[200px] w-[99px] h-[70px]"
+          className="lg:w-[315px] lg:h-[200px] md:w-[205px] md:h-[135px]  w-[99px] h-[70px]"
         />
         <img
           src="/img/project-three.png"
           alt="Project-three"
-          className="lg:w-[315px] lg:h-[200px] w-[99px] h-[70px]"
+          className="lg:w-[315px] lg:h-[200px] md:w-[205px] md:h-[135px]  w-[99px] h-[70px]"
         />
         <img
           src="/img/project-four.png"
           alt="Project-four"
-          className="lg:w-[315px] lg:h-[200px] w-[99px] h-[70px]"
+          className="lg:w-[315px] lg:h-[200px] md:w-[205px] md:h-[135px]  w-[99px] h-[70px]"
         />
       </div>
     </div>

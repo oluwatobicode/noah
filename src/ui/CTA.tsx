@@ -14,7 +14,7 @@ function CTA() {
       </Button>
       <div className="flex items-center  justify-between  mt-10">
         <img src="/img/Logo.svg" className="w-[100px] lg:w-[200px] mr-auto" />
-        <div className="flex items-center  justify-between gap-2">
+        <div className="flex items-center  justify-between gap-1">
           <Button link="" type="secondary">
             Download CV
           </Button>

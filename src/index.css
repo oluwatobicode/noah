@@ -7,7 +7,7 @@ body {
   background-color: #1d1d1d;
   background-image: url("/img/desktop.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   background-position-y: bottom;
 }
 
@@ -17,3 +17,34 @@ a.active {
   padding: 0.5rem 2rem 0.5rem 2rem;
   border-radius: 1.5rem;
 }
+
+/* .container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ping {
+  background: #43da92;
+  border-radius: 50%;
+  border: 50px solid #43da92;
+  width: 20px;
+  height: 20px;
+  animation: load 1.5s ease-out infinite;
+}
+
+@keyframes load {
+  0% {
+    background: #fff;
+    border: 0px solid #fff;
+  }
+  50% {
+    background: #fff;
+    border: 100px solid #222;
+  }
+  100% {
+    background: #fff;
+    border: 0px solid #222;
+  }
+} */
